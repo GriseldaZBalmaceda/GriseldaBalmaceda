@@ -1,0 +1,89 @@
+body{
+    font-family: 'Libre Baskerville', serif;;
+}
+.Menu {
+font-family: 'Lobster', cursive;
+position: absolute;
+left: 50%;
+transform:translate(-50%)
+}
+.Menu>a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right:30px;
+}
+.Main-Pagination {
+    position: absolute;
+    height: 30%;
+    bottom: 5px;
+    left: 10%;
+    font-size: 40px;
+}
+.Pagination {
+    display: inline-block;   
+    font-size: 40px;  
+    width:30%
+}
+.Pagination-Container {
+    position: absolute;
+    top:20%;
+    left:2%;
+}
+.Pagination-Number{
+    display: inline-block;
+    transform: rotate(-90deg);
+    color: pink;
+}
+.Pagination-Name {
+    display: inline-block;
+}
+.dash{
+    display:inline-block;
+}
+.name{
+    display: inline-block;
+}
+.about-picture-container {
+    width: 15%;
+    position: absolute;
+    left:50%;
+    transform:translate(-50%,-95%);
+}
+.about-picture{
+    width: 100%
+}
+.name-container {
+    margin-top: 5px;
+}
+.about-name{
+    font-size: 72px;
+    position: absolute;
+    left:50%;
+    transform:translate(-50%,-15%);
+}
+.about-name-2 {
+    font-size: 72px;
+    position: absolute;
+    left:60%;
+    transform:translate(-60%,60%)
+}
+.position-container{
+    font-size: 20px;
+    position: absolute;
+    left:50%;
+    transform:translate(-50%);
+    bottom:30px;
+}
+
+.Portfolio-Section {
+    display: inline-block;
+    width:60%
+}
+.client-section{
+display: inline-block;
+padding:30px
+}
